@@ -127,7 +127,7 @@ function setOX() {
  *  Change The BackGround Color of <td> element.
  */
 function bgCellOX() {
-    this.setAttribute('bgcolor', '#000066');
+    this.setAttribute('bgcolor', '#ffccff'); //change background of cells
 }
 
 OX(); // Run The 'OX' Function.
