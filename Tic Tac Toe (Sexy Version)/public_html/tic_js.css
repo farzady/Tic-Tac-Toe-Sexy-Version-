@@ -1,0 +1,41 @@
+/* 
+    Created on : 2018-okt-14, 20:57:58
+    Author     : Farzad Mambari
+*/
+body {
+    background-color: #ccccff;
+}
+
+h1 {
+    color: #ff33cc;
+}
+
+table {
+    border-collapse:separate;
+}
+
+td {
+    /*background-color: black;*/
+    border-style: solid;
+    border-width: 4px; 
+    border-color: red;
+    font-size: 80px;
+    color: #00ffff;
+}
+
+#player {
+    color: blueviolet;
+    margin: 40px;
+    font-size:      30px;
+    font-weight:    bold;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
