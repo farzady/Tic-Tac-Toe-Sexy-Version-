@@ -67,7 +67,7 @@ function startNewOX() {
 //    for (var i = 0; i < F_boxes.length; i++) { 
 //        F_boxes[i].innerHTML = F_EMPTY;
 //    }
-
+    bgCellOXClear(); // Change Background Color to default.
 }
 
 /*
@@ -127,7 +127,17 @@ function setOX() {
  *  Change The BackGround Color of <td> element.
  */
 function bgCellOX() {
-    this.setAttribute('bgcolor', '#ffccff'); //change background of cells
+    this.style.backgroundColor = '#ffccff';
+}
+
+/*
+ *  Change The BackGround Color of <td> elements to default color.
+ */
+function bgCellOXClear() {
+    var cells = document.getElementById("SexyTable").getElementsByTagName("td");
+    for (var i = 0; i < cells.length; i++) {
+       cells[i].style.backgroundColor = 'black';
+    }
 }
 
 OX(); // Run The 'OX' Function.
